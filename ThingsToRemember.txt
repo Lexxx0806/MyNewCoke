@@ -1,0 +1,6 @@
+| Feature              | `id`                         | `name`                                 |
+| -------------------- | ---------------------------- | -------------------------------------- |
+| Must be unique?      | ✅ Yes                        | ❌ No                                   |
+| Used in CSS/JS?      | ✅ Yes                        | Rarely                                 |
+| Used in form submit? | ❌ No                         | ✅ Yes                                  |
+| Purpose              | Identify element in the page | Identify input field in submitted data |
