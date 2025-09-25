@@ -1,0 +1,31 @@
+Microsoft Windows [Version 10.0.26100.6584]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\spawn>mkdir MyCokeFolder
+
+C:\Users\spawn>cd "MyCokeFolder"
+
+C:\Users\spawn\MyCokeFolder>git init
+Initialized empty Git repository in C:/Users/spawn/MyCokeFolder/.git/
+
+C:\Users\spawn\MyCokeFolder>echo "<p>Hello</p>" > index.html
+
+C:\Users\spawn\MyCokeFolder>git add .
+
+C:\Users\spawn\MyCokeFolder>git commit -m "NewCoke"
+[master (root-commit) 270e1b1] NewCoke
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+
+C:\Users\spawn\MyCokeFolder>git remote add origin https://github.com/Lexxx0806/MyNewCoke.git
+
+C:\Users\spawn\MyCokeFolder>git branch -M main
+
+C:\Users\spawn\MyCokeFolder>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 231 bytes | 231.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Lexxx0806/MyNewCoke.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
