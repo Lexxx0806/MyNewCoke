@@ -4,3 +4,6 @@
 | Used in CSS/JS?      | ✅ Yes                        | Rarely                                 |
 | Used in form submit? | ❌ No                         | ✅ Yes                                  |
 | Purpose              | Identify element in the page | Identify input field in submitted data |
+
+# <meta http-equiv="refresh" content="5"> //refresh the website very 5 seconds
+
